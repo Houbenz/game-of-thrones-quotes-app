@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/change_list_grid"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/change_to_grid"
+        app:showAsAction="always" />
+
+
+</menu>
